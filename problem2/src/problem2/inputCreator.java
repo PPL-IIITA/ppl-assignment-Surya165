@@ -76,6 +76,7 @@ public class inputCreator {
             default:
                
               input = new Scanner(System.in);
+                System.out.println("Enter the number of gifts:");
                this.gifts = input.nextInt();       
 
                 file = new File(s+"/gifts");
